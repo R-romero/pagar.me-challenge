@@ -1,0 +1,20 @@
+{
+  "name": "pagar.me-challenge",
+  "version": "1.0.0",
+  "description": "Simple shop app using Pagar.me Checkout and Pagar.me API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Pagar.me",
+    "Shopping",
+    "List"
+  ],
+  "author": "Rodrigo Romero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio Técnico pagar.me</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <script src="https://assets.pagar.me/pagarme-js/3.1/pagarme.min.js"></script>
+  <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="wrap cf">
+  <h1 class="projTitle">Desafio Técnico<span> pagar.me</span></h1>
+  <div class="cart">
+    <ul class="cartWrap">
+      <li  id='item 1' class="items odd">
+        <div class="infoWrap"> 
+          <div class="cartSection">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51pQFrAXwCL._AC_SX215_.jpg" alt="" class="itemImg" />
+            <p name='id' id='item-id1 ' class="itemNumber">#ITEM-01</p>
+            <h3 id='item-name'>World of Warcraft</h3>
+             <p> <input name='quantity' id='qt-item1' type="text"  class="qty" placeholder="0" onchange="Cart_handler()"/> x R$65.00</p>
+          </div>  
+          <div class="prodTotal cartSection">
+            <p id='prodTotal1'>R$ 0.00</p>
+          </div>
+        </div>
+      </li>
+      <li class="totalRow"><a href="#" onclick="Checkout()" class="btn continue">Checkout</a></li>
+    </ul>
+    <div id='account_info' class="infoWrap"></div>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="../js/working-transaction.js"></script>
+</body>
+
+</html>
