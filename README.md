@@ -4,7 +4,7 @@ Simple Shop using HTML and Javascript.
 It uses Pagar.me Checkout and Pagar.me API to make Transactions and Check Balance.
 
 ## Requirements
-You must fill [working-transaction](js/working-transaction.js) with your own data from https://dashboard.pagar.me to be able of using this app.
+You must fill [working-transaction](js/working-transaction.js) with your own data from https://dashboard.pagar.me to use this app.
 - Recipient_id
 - Api_key
 - Encryption_key
