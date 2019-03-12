@@ -10,7 +10,7 @@ You must fill [working-transaction](js/working-transaction.js) with your own dat
 - Encryption_key
 
 ## Usage
-A simple `npm start` should set everything up.
+A simple `npm install / start` should set everything up.
 
 ## Layout
 Based on Responsive Shopping Cart with no tables.
